@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Guilherme nobre Bernardo">
+    <meta name="description" content="Site com estrutura em flexbox">
+    <meta name="keywords" content="CSS3, HTML5, Flexbox, FIAP">
+    <link rel="stylesheet" href="style.css">
+    <title>Flexbox</title>
+</head>
+<body>
+    <!-- div.container -->
+    <div class="container">
+        <!-- nav.menu>div.logo+ul>li*3>a -->
+        <nav class="menu">
+            <div class="logo">Logo da Empresa</div>
+            <ul>
+                <li><a href="#"></a>Item1</li>
+                <li><a href="#"></a>Item2</li>
+                <li><a href="#"></a>Item3</li>
+            </ul>
+            <!-- div.search-bar>input+button -->
+            <div class="search-bar">
+                <input type="text" placeholder="Buscar...">
+                <button type="submit">Buscar</button>
+            </div>
+        </nav>
+        <!-- div.main-container>aside+div.content-container>main+section.content-row>article.*3 -->
+        <div class="main-container">
+            <aside>Aside</aside>
+            <div class="content-container">
+                <main>Conteudo Principal</main>
+                <section class="content-row">
+                    <article id="content1">Content1</article>
+                    <article id="content2">Content2</article>
+                    <article id="content3">Content3</article>
+                </section>
+            </div>
+        </div>
+        <footer>Footer</footer>
+    </div>
+</body>
+</html>
